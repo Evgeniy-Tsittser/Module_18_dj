@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 38px;
+        }
+
+        main {
+            padding: 50px;
+            min-height: calc(100vh - 150px);
+        }
+
+        img {
+            position: absolute;
+            top: 140px;
+            left: 900px;
+            width: 500px;
+            height: auto;
+        }
+
+        h1 {
+            color: aqua;
+        }
+
+        footer {
+            text-align: center;
+            background-color: lightgray;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Главная</a></li>
+                <li><a href="http://127.0.0.1:8000/shop/">Магазин</a></li>
+                <li><a href="http://127.0.0.1:8000/cart/">Корзина</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Главная страница</h1>
+        <p>Товары для любителей рыбалки.</p>
+    </main>
+
+    <img src="https://спортплюс.рф/upload/iblock/1bb/hzk6ndm8xj4q8iteirxdh4sg63naes6d/1675431047_gas_kvas_com_p_fonovii_risunok_ribalka_27.jpg" alt="Удача!">
+
+    <footer>
+        <p>© 2024 Любителям рыбалки.</p>
+    </footer>
+</body>
+</html>
